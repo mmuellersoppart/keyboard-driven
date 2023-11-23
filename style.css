@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: red;
+.main-input {
+    opacity: 0;
+    pointer-events: none;
+    visibility: visible;
+    position: absolute;
 }

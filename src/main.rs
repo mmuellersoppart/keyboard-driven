@@ -35,6 +35,7 @@ fn App() -> impl IntoView {
             }/>
             <p>{key_pressed}</p>
         </div>
+        <button>"press"</button>
     }
 }
 
