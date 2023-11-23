@@ -33,7 +33,7 @@ fn App() -> impl IntoView {
             <input class="main-input" _ref=key_input type="text" on:keydown=move |ev| {
                 set_key_pressed(ev.code().to_string());
             }/>
-            <p>{move || key_pressed}</p>
+            <p>{key_pressed}</p>
         </div>
     }
 }
