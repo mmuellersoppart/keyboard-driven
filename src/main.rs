@@ -1,3 +1,14 @@
+use leptos::*;
+
+#[component]
+fn App() -> impl IntoView {
+    view! {
+        <p>"Hello, world!"</p>
+    }
+}
+
 fn main() {
-    println!("Hello, world!");
+    mount_to_body(|| view! {
+        <App/>
+    })
 }
