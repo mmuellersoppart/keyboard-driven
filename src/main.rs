@@ -28,7 +28,7 @@ fn App() -> impl IntoView {
     let (key_pressed, set_key_pressed) = create_signal(String::from(""));
 
     view! {
-
+        <h1>"selection toy example"</h1>
         <div class="input-container">
             <input class="main-input" _ref=key_input type="text" on:keydown=move |ev| {
                 set_key_pressed(ev.code().to_string());
