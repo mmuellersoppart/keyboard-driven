@@ -4,9 +4,41 @@
     box-sizing: border-box;
 }
 
+h1 {
+    margin-bottom: 3rem;
+}
+
 .main-input {
     opacity: 0;
     pointer-events: none;
     visibility: visible;
     position: absolute;
 }
+
+.container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.item {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+.highlighted {
+    border: 3px solid green;
+}
+
+.selected {
+    background-color: black;
+}
+
