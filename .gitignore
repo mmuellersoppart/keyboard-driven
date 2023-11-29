@@ -1,3 +1,6 @@
 /target
 /dist
 dist
+
+# okay to remove if the project is a binary
+Cargo.lock
